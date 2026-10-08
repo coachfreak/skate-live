@@ -1,0 +1,3 @@
+#!/bin/bash
+# App executable: shows the server in a Terminal window.
+exec open -a Terminal "$(dirname "$0")/../Resources/start_server.command"
